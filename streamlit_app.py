@@ -1,6 +1,6 @@
 """
-Streamlit Web App for Brazilian-Portuguese Migration ABM
-Easy-to-share web interface for running simulations
+Streamlit Web App for Language Evolution Through Immigration Dynamics
+Interactive web interface for exploring cultural evolution simulations
 """
 
 import streamlit as st
@@ -13,14 +13,14 @@ from visualization import export_data_to_csv
 
 # Page configuration
 st.set_page_config(
-    page_title="Brazilian-Portuguese Migration ABM",
+    page_title="Language Evolution Through Immigration Dynamics",
     page_icon="🌍",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
 # Title and description
-st.title("🌍 Brazilian-Portuguese Migration ABM")
+st.title("🌍 Language Evolution Through Immigration Dynamics")
 st.markdown("""
 Explore how cultural norms evolve through immigration using an agent-based model. 
 Adjust parameters, run simulations, and visualize results in real-time.
@@ -388,7 +388,7 @@ else:
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center'>
-    <p>Brazilian-Portuguese Migration ABM | Agent-Based Model for Cultural Evolution</p>
-    <p><small>Developed for research on immigration dynamics and cultural integration</small></p>
+    <p>Language Evolution Through Immigration Dynamics | Agent-Based Model for Cultural Evolution</p>
+    <p><small>Interactive web interface for exploring cultural evolution through immigration</small></p>
 </div>
 """, unsafe_allow_html=True)
