@@ -18,7 +18,7 @@ from visualization import plot_all_features_comparison, export_data_to_csv
 class MigrationModelGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("Brazilian-Portuguese Migration ABM")
+        self.root.title("Language Evolution Through Immigration Dynamics")
         self.root.geometry("1400x900")
         
         # Model and results
