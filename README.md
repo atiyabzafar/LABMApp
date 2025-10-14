@@ -1,8 +1,8 @@
-# Brazilian-Portuguese Migration ABM - GUI Application
+# Language Evolution Through Immigration Dynamics - Interactive Application
 
 ## 🌍 Overview
 
-This folder contains interactive GUI applications for the Brazilian-Portuguese Migration Agent-Based Model. Choose between:
+This folder contains interactive applications for exploring **Language Evolution Through Immigration Dynamics** using agent-based modeling. Choose between:
 
 1. **Streamlit Web App** (Recommended for sharing) - `streamlit_app.py`
 2. **Tkinter Desktop App** - `gui_app.py`
@@ -42,7 +42,7 @@ A desktop window will open.
 1. **Push to GitHub:**
    ```bash
    git add .
-   git commit -m "Add GUI application"
+   git commit -m "Add language evolution application"
    git push
    ```
 
@@ -81,8 +81,8 @@ A desktop window will open.
 1. Push to GitHub
 2. Users clone and run locally:
    ```bash
-   git clone https://github.com/yourusername/migration-abm-gui
-   cd migration-abm-gui
+   git clone https://github.com/yourusername/language-evolution-app
+   cd language-evolution-app
    pip install -r requirements.txt
    streamlit run streamlit_app.py
    ```
@@ -104,8 +104,8 @@ CMD ["streamlit", "run", "streamlit_app.py"]
 
 Build and run:
 ```bash
-docker build -t migration-abm .
-docker run -p 8501:8501 migration-abm
+docker build -t language-evolution .
+docker run -p 8501:8501 language-evolution
 ```
 
 ### Method 5: Executable (Desktop App)
@@ -144,7 +144,7 @@ Share the executable file from `dist/` folder.
 ## 📁 Files in This Folder
 
 ```
-GUI Application/
+Language Evolution App/
 ├── streamlit_app.py          # Web app (RECOMMENDED)
 ├── gui_app.py                 # Desktop app
 ├── agents.py                  # Agent classes
@@ -184,7 +184,7 @@ python3 gui_app.py
 
 1. **Prepare Repository:**
    ```bash
-   cd "GUI Application"
+   cd "Language Evolution App"
    git init
    git add .
    git commit -m "Initial commit"
@@ -193,14 +193,14 @@ python3 gui_app.py
 2. **Push to GitHub:**
    ```bash
    # Create repo on GitHub first, then:
-   git remote add origin https://github.com/yourusername/migration-abm-gui.git
+   git remote add origin https://github.com/yourusername/language-evolution-app.git
    git push -u origin main
    ```
 
 3. **Deploy:**
    - Visit [share.streamlit.io](https://share.streamlit.io)
    - Click "New app"
-   - Repository: `yourusername/migration-abm-gui`
+   - Repository: `yourusername/language-evolution-app`
    - Branch: `main`
    - Main file path: `streamlit_app.py`
    - Click "Deploy"
