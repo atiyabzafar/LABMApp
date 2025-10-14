@@ -13,20 +13,11 @@ How do cultural traits evolve when immigrant and host populations interact? Does
 
 ## 🎛️ Application Features
 
-### Two Interface Options
-
-1. **🌐 Streamlit Web Application** (`streamlit_app.py`)
-   - Browser-based interface
-   - Interactive parameter controls
-   - Real-time visualization
-   - Data export capabilities
-   - Mobile-friendly responsive design
-
-2. **🖥️ Tkinter Desktop Application** (`gui_app.py`)
-   - Native desktop window
-   - Comprehensive parameter panel
-   - Multi-tab results display
-   - Advanced visualization options
+- **Interactive parameter controls** for all simulation settings
+- **Real-time visualization** of demographic and linguistic evolution
+- **Multi-tab results display** with comprehensive statistics
+- **Data export capabilities** for further analysis
+- **Responsive design** that works across different platforms
 
 ## 📊 Simulation Parameters
 
@@ -181,26 +172,6 @@ How do cultural traits evolve when immigrant and host populations interact? Does
 - Model bidirectional cultural influence
 - Explore policy implications for immigrant integration
 - Study spatial settlement patterns and their effects
-
-## 🚀 Advanced Features
-
-### Interactive Exploration
-- Real-time parameter adjustment
-- Immediate visual feedback
-- Comparative scenario testing
-- Sensitivity analysis capabilities
-
-### Data Analysis
-- Comprehensive statistical summaries
-- Trend analysis and pattern identification
-- Export for external statistical software
-- Visualization of complex interactions
-
-### Educational Use
-- Intuitive interface for students
-- Immediate feedback for learning
-- Exploration of complex systems concepts
-- Demonstration of agent-based modeling
 
 ---
 
